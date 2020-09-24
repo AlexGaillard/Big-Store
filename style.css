@@ -846,6 +846,14 @@ a.added_to_cart.wc-forward {
 		color: #fff;
 }
 
+#coronaBanner {
+	position: static;
+}
+
+.banner_bottomFixed {
+	padding-bottom: 0 !important;
+}
+
 
 /* Media Queries -------------------------------------------------------------*/
 @media all and (max-width: 823px)	{
@@ -858,9 +866,6 @@ a.added_to_cart.wc-forward {
 		font-size: 0.7em;
 	}
 
-	#coronaBanner {
-		position: static;
-	}
 }
 
 @media all and (max-width: 767px) {
@@ -970,7 +975,4 @@ a.added_to_cart.wc-forward {
 			height: 40px !important;
 		}
 
-		#coronaBanner {
-			position: static;
-		}
 }
