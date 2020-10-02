@@ -24,7 +24,7 @@
     wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '4.1.3', 'all');
 
     // Theme's main stylesheet
-    wp_enqueue_style( 'big-store-style', get_stylesheet_uri(), array(), '1.0.2', 'all' );
+    wp_enqueue_style( 'big-store-style', get_stylesheet_uri(), array(), '1.0.3', 'all' );
 
     // Google Fonts
     wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&display=swap' );
