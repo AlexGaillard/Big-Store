@@ -779,8 +779,9 @@ a.added_to_cart.wc-forward {
 }
 
 .btn-subscribe:hover {
-	background-color: #2AED2D !important;
+	background-color: #fff !important;
 	text-shadow: 0 1px 1px #000 !important;
+	color: #000 !important;
 }
 
 .btn-subscribe:active {
