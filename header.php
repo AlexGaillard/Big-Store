@@ -90,7 +90,7 @@
 	            </a>
 	          </div>
 
-						<div class="header-second-column col-md-6 col-12" style="color:<?php echo $text; ?>">
+						<div class="header-second-column col-md-6 col-12 m-auto" style="color:<?php echo $text; ?>">
 							<p class="m-auto text-center">NATIONWIDE DELIVERY AVAILABLE <i class="fas fa-shipping-fast"></i></p>
 							<p class="m-auto text-center">Orders shipped within 12 hours of checkout (Mon- Fri)</p>
 						</div>
