@@ -24,7 +24,7 @@
     wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '4.1.3', 'all');
 
     // Theme's main stylesheet
-    wp_enqueue_style( 'big-store-style', get_stylesheet_uri(), array(), '1.0.5', 'all' );
+    wp_enqueue_style( 'big-store-style', get_stylesheet_uri(), array(), '1.0.6', 'all' );
 
     // Google Fonts
     wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&display=swap' );
@@ -76,8 +76,6 @@
 
       // Add custom logo support
       add_theme_support( 'custom-logo', array(
-        'height'        => 26,
-        'width'         => 240,
         'flex_height'   => true,
         'flex_width'    => true,
       ));
