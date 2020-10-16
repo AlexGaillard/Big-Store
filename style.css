@@ -297,6 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 .category-link img {
 	box-shadow:0 2px 2px 0 rgba(77,77,79,0.08), 0 0 2px 0 rgba(77,77,79,0.16);
 	-webkit-box-shadow:0 2px 2px 0 rgba(77,77,79,0.08), 0 0 2px 0 rgba(77,77,79,0.16);
+	border-radius: 10px;
 	transition: 0.2s;
 	height:160px;
 	width: auto;
