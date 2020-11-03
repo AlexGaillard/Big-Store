@@ -84,8 +84,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin: auto 0;
 }
 
+.header-first-column div {
+	width: fit-content;
+}
+
 .tagline {
 	font-weight: bold;
+	text-align: center;
 }
 
 .header-second-column p {
@@ -893,6 +898,10 @@ a.added_to_cart.wc-forward {
 
 		.header-first-column {
 			margin: 10px 0;
+		}
+
+		.header-first-column div {
+			margin: auto;
 		}
 
 		.header-second-column {
