@@ -25,7 +25,9 @@
   <div id="page" class="site">
 		<header class="global-header">
 
-      <section class="hotline">
+		<?php $hotline_c    = get_theme_mod( 'set_hotline_colour' ); ?>
+
+      <section class="hotline" style="background-color: <?php echo $hotline_c ?>">
         <div class="container-fluid">
 					<div class="row">
 						<div class="col-12 col-md-6 text-center text-md-left">

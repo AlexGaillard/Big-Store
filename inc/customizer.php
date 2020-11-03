@@ -342,6 +342,24 @@ function big_store_customizer( $wp_customize ){
 				)
 			);
 
+				// Hotline Colour
+			$wp_customize->add_setting(
+				'set_hotline_colour', array(
+					'type'								=> 'theme_mod',
+					'default'							=> '',
+					'sanitize_callback'		=> 'sanitize_text_field'
+				)
+			);
+
+			$wp_customize->add_control(
+				'set_hotline_colour', array(
+					'label'				=> 'Hotline Number',
+					'description'	=> 'What is the hotline background colour?',
+					'section'			=> 'sec_hotline',
+					'type'				=> 'text'
+				)
+			);
+
 
 
 	// Theme Colour Picker --------------------------------------------------*

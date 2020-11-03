@@ -5,7 +5,7 @@ Github Theme URI: https://github.com/Aldeebob/Big-Store
 Author: bigWeb
 Author: http://www.bigweb.dev
 Description: A great theme for retail websites
-Version: 1.0.8
+Version: 1.0.9
 Text-domain: big-store
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -57,9 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 10;
 }
 
-.hotline {
+/* .hotline {
 	background-color: #2c003e;
-}
+} */
 
 .hotline a, .hotline span, .hotline p, .hotline i {
 	color: #fff;
