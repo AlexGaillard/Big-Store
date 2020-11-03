@@ -27,7 +27,7 @@
     wp_enqueue_style( 'big-store-style', get_stylesheet_uri(), array(), '1.0.9', 'all' );
 
     // Google Fonts
-    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&display=swap' );
+    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap' );
 
     // Flexslider stylesheet and js
     wp_enqueue_script( 'flexslider-min-js', get_template_directory_uri() . '/inc/flexslider/jquery.flexslider-min.js', array( 'jquery'), '', true );
