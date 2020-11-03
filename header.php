@@ -81,8 +81,9 @@
 				<div class="container-fluid">
 
 					<div class="row">
-	          <div class="header-first-column col-md-3 col-12 text-md-left text-center" style="color:<?php echo $text; ?>">
-	            <a href="<?php echo home_url( '/' ) ?>">
+						<div class="header-first-column col-md-3 col-12" style="color:<?php echo $text; ?>">
+							<div class="text-md-left text-center">
+							<a href="<?php echo home_url( '/' ) ?>">
 	              <?php if( has_custom_logo() ) : ?>
 	              <?php the_custom_logo() ?>
 								<span class="tagline d-block"><?php bloginfo( 'description'); ?></span>
@@ -90,6 +91,8 @@
 	              <p class="site-title"><?php bloginfo( 'title' ); ?></p>
 	              <?php endif; ?>
 	            </a>
+							</div>
+	           
 	          </div>
 
 						<div class="header-second-column col-md-6 col-12 m-auto" style="color:<?php echo $text; ?>">
@@ -103,7 +106,7 @@
 									<i class="fas fa-shopping-cart"> | </i>
 									<?php echo WC()->cart->get_cart_total(); ?>
 								</a>
-								<a class="btn" href="<?php echo wc_get_checkout_url(); ?>" role="button">Checkout <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+								<a class="btn" href="<?php echo wc_get_checkout_url(); ?>" role="button">Go To Checkout <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	          </div>
 				</div>
 

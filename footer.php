@@ -56,7 +56,9 @@
 					</div>
 				</section>
 
-				<section class="copyright">
+				<?php $hotline_c    = get_theme_mod( 'set_hotline_colour' ); ?>
+
+				<section class="copyright" style="background-color: <?php echo $hotline_c ?>">
 					<div class="container">
 						<div class="row">
   						<div class="copyright-text col-12 col-md-6 text-md-left text-center">

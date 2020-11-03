@@ -24,10 +24,10 @@
     wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '4.1.3', 'all');
 
     // Theme's main stylesheet
-    wp_enqueue_style( 'big-store-style', get_stylesheet_uri(), array(), '1.0.9', 'all' );
+    wp_enqueue_style( 'big-store-style', get_stylesheet_uri(), array(), '1.0.10', 'all' );
 
     // Google Fonts
-    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap' );
+    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap' );
 
     // Flexslider stylesheet and js
     wp_enqueue_script( 'flexslider-min-js', get_template_directory_uri() . '/inc/flexslider/jquery.flexslider-min.js', array( 'jquery'), '', true );
